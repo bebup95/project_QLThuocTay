@@ -73,7 +73,7 @@ public class Login_new extends javax.swing.JFrame {
             TaiKhoan tk = controller.selectByUsername(username);
 
             System.out.println("Fetched TaiKhoan: " + tk); // Debug log
-
+            
             if (tk == null) {
                 MessageDialog.error(this, "Tài khoản không tồn tại!");
                 return;
