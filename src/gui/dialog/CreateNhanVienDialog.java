@@ -117,7 +117,6 @@ public class CreateNhanVienDialog extends javax.swing.JDialog {
         btnAdd = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(600, 600));
 
         jPanel15.setBackground(new java.awt.Color(0, 153, 153));
         jPanel15.setMinimumSize(new java.awt.Dimension(100, 60));
@@ -133,7 +132,6 @@ public class CreateNhanVienDialog extends javax.swing.JDialog {
         getContentPane().add(jPanel15, java.awt.BorderLayout.NORTH);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 5, 16));
 
         jPanel18.setBackground(new java.awt.Color(255, 255, 255));
         jPanel18.setPreferredSize(new java.awt.Dimension(500, 40));
@@ -150,8 +148,6 @@ public class CreateNhanVienDialog extends javax.swing.JDialog {
         txtHoTen.setPreferredSize(new java.awt.Dimension(330, 40));
         jPanel18.add(txtHoTen);
 
-        jPanel1.add(jPanel18);
-
         jPanel19.setBackground(new java.awt.Color(255, 255, 255));
         jPanel19.setPreferredSize(new java.awt.Dimension(500, 40));
         jPanel19.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT, 6, 0));
@@ -165,8 +161,6 @@ public class CreateNhanVienDialog extends javax.swing.JDialog {
         txtSdt.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         txtSdt.setPreferredSize(new java.awt.Dimension(330, 40));
         jPanel19.add(txtSdt);
-
-        jPanel1.add(jPanel19);
 
         jPanel21.setBackground(new java.awt.Color(255, 255, 255));
         jPanel21.setPreferredSize(new java.awt.Dimension(500, 40));
@@ -182,8 +176,6 @@ public class CreateNhanVienDialog extends javax.swing.JDialog {
         cboxGioiTinh.setPreferredSize(new java.awt.Dimension(200, 40));
         jPanel21.add(cboxGioiTinh);
 
-        jPanel1.add(jPanel21);
-
         jPanel20.setBackground(new java.awt.Color(255, 255, 255));
         jPanel20.setPreferredSize(new java.awt.Dimension(500, 40));
         jPanel20.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.LEFT, 6, 0));
@@ -197,8 +189,6 @@ public class CreateNhanVienDialog extends javax.swing.JDialog {
         txtNamSinh.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         txtNamSinh.setPreferredSize(new java.awt.Dimension(330, 40));
         jPanel20.add(txtNamSinh);
-
-        jPanel1.add(jPanel20);
 
         jPanel22.setBackground(new java.awt.Color(255, 255, 255));
         jPanel22.setPreferredSize(new java.awt.Dimension(500, 40));
@@ -215,7 +205,35 @@ public class CreateNhanVienDialog extends javax.swing.JDialog {
         txtNgayVaoLam.setPreferredSize(new java.awt.Dimension(200, 40));
         jPanel22.add(txtNgayVaoLam);
 
-        jPanel1.add(jPanel22);
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(50, 50, 50)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(50, 50, 50))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(16, 16, 16)
+                .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(16, 16, 16)
+                .addComponent(jPanel19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(16, 16, 16)
+                .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(16, 16, 16)
+                .addComponent(jPanel20, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(16, 16, 16)
+                .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(218, Short.MAX_VALUE))
+        );
 
         getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
 

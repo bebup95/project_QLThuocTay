@@ -151,7 +151,6 @@ public class CreateTaiKhoanDialog extends javax.swing.JDialog {
         btnAdd = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(700, 600));
 
         jPanel15.setBackground(new java.awt.Color(0, 153, 153));
         jPanel15.setMinimumSize(new java.awt.Dimension(100, 60));
@@ -222,7 +221,6 @@ public class CreateTaiKhoanDialog extends javax.swing.JDialog {
 
         tableNV.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"123", "Anh Tuấn", "123123", null, null, null},
                 {"13124", "czczxc", "zxc", null, null, null},
                 {"14123", "zxczc", "zxc", null, null, null},
                 {"124123", "zxczx", "zxc", null, null, null}
