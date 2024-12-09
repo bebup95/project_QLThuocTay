@@ -37,11 +37,12 @@ public class CreateKhachHangDialog extends javax.swing.JDialog {
             return false;
         }
 
-        if (txtSdt.getText().trim().equals("") || !Validation.isNumber(txtSdt.getText()) || txtSdt.getText().length() != 10) {
-            MessageDialog.warring(this, "Số điện thoại không được rỗng và có 10 ký tự sô!");
-            txtSdt.requestFocus();
-            return false;
-        }
+        if (txtSdt.getText().trim().equals("") || !txtSdt.getText().matches("^(0[3|5|7|8|9])([0-9]{8})$")) {
+    MessageDialog.warring(this, "Số điện thoại không hợp lệ. Vui lòng nhập số điện thoại 10 chữ số bắt đầu bằng 03, 05, 07, 08 hoặc 09!");
+    txtSdt.requestFocus();
+    return false;
+}
+
 
         if (txtNgayThamGia.getDate() == null || !txtNgayThamGia.getDateFormatString().equals("dd/MM/yyyy")) {
             MessageDialog.warring(this, "Ngày tham gia không được rỗng và có kiểu dd/MM/yyyy");
