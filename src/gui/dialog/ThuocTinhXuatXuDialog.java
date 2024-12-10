@@ -194,7 +194,6 @@ public class ThuocTinhXuatXuDialog extends javax.swing.JDialog {
 
         table.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"123", "Anh Tuấn", "123123", null, null, null},
                 {"13124", "czczxc", "zxc", null, null, null},
                 {"14123", "zxczc", "zxc", null, null, null},
                 {"124123", "zxczx", "zxc", null, null, null}

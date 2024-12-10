@@ -99,6 +99,8 @@ public class NhaCungCapPage extends javax.swing.JPanel {
         btnAdd = new javax.swing.JButton();
         btnUpdate = new javax.swing.JButton();
         btnDelete = new javax.swing.JButton();
+        btnInfo = new javax.swing.JButton();
+        btnImport = new javax.swing.JButton();
         btnExport = new javax.swing.JButton();
         tablePanel = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -213,7 +215,34 @@ public class NhaCungCapPage extends javax.swing.JPanel {
         });
         actionPanel.add(btnDelete);
 
-        
+        btnInfo.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        btnInfo.setIcon(new FlatSVGIcon("./icon/info.svg"));
+        btnInfo.setText("INFO");
+        btnInfo.setBorder(null);
+        btnInfo.setBorderPainted(false);
+        btnInfo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnInfo.setFocusPainted(false);
+        btnInfo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnInfo.setPreferredSize(new java.awt.Dimension(90, 90));
+        btnInfo.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        actionPanel.add(btnInfo);
+
+        btnImport.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        btnImport.setIcon(new FlatSVGIcon("./icon/import.svg"));
+        btnImport.setText("IMPORT");
+        btnImport.setBorder(null);
+        btnImport.setBorderPainted(false);
+        btnImport.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnImport.setFocusPainted(false);
+        btnImport.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnImport.setPreferredSize(new java.awt.Dimension(90, 90));
+        btnImport.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnImport.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnImportActionPerformed(evt);
+            }
+        });
+        actionPanel.add(btnImport);
 
         btnExport.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
         btnExport.setIcon(new FlatSVGIcon("./icon/export.svg"));
@@ -239,7 +268,31 @@ public class NhaCungCapPage extends javax.swing.JPanel {
         tablePanel.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(230, 230, 230), 2, true));
         tablePanel.setLayout(new java.awt.BorderLayout());
 
-//        
+        table.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {"13124", "czczxc", "zxc", null, null, null},
+                {"14123", "zxczc", "zxc", null, null, null},
+                {"124123", "zxczx", "zxc", null, null, null}
+            },
+            new String [] {
+                "Mã", "Họ tên", "Số điện thoại", "Giới tính", "Năm sinh", "Ngày vào làm"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
         table.setFocusable(false);
         table.setRowHeight(40);
         table.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
@@ -335,6 +388,8 @@ public class NhaCungCapPage extends javax.swing.JPanel {
     private javax.swing.JButton btnAdd;
     private javax.swing.JButton btnDelete;
     private javax.swing.JButton btnExport;
+    private javax.swing.JButton btnImport;
+    private javax.swing.JButton btnInfo;
     private javax.swing.JButton btnReload;
     private javax.swing.JButton btnUpdate;
     private javax.swing.JComboBox<String> cboxSearch;

@@ -1,1 +1,44 @@
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" height="32" width="32"><circle style="fill:#948FE1;" cx="256" cy="256" r="256" /><path style="fill:#6E61B7;" d="M512,256c0-9.938-0.586-19.737-1.688-29.379L401.166,117.475L256,55.333l-145.166,62.141  c0,0,0,141.6,0,193.554c0,28.497,7.974,52.397,34.754,77.247l123.398,123.398C404.337,504.911,512,393.03,512,256z" /><path style="fill:#004EB2;" d="M256,55.333l-145.166,62.141c0,0,0,141.6,0,193.554S137.324,399.656,256,454.667  c118.676-55.01,145.166-91.684,145.166-143.638s0-193.554,0-193.554L256,55.333z" /><path style="fill:#002D6B;" d="M401.17,117.47c0,0,0,141.6,0,193.56c0,51.95-26.49,88.63-145.17,143.64V55.33L401.17,117.47z" /><path style="fill:#FFFFFF;" d="M320.497,245.102h-22.804v-54.981c0-22.99-18.704-41.694-41.694-41.694s-41.694,18.704-41.694,41.694  v54.981h-22.804v-54.981c0-35.564,28.933-64.497,64.497-64.497s64.497,28.934,64.497,64.497v54.981H320.497z" /><path style="fill:#FFF5CB;" d="M320.5,190.12v54.98h-22.81v-54.98c0-22.99-18.7-41.69-41.69-41.69v-22.81  C291.56,125.62,320.5,154.56,320.5,190.12z" /><path style="fill:#FFB84D;" d="M272.253,381.706h-32.506c-38.936,0-70.5-31.564-70.5-70.5v-73.262h173.506v73.262  C342.753,350.142,311.189,381.706,272.253,381.706z" /><path style="fill:#FF9A00;" d="M342.75,237.94v73.27c0,38.93-31.56,70.5-70.5,70.5H256V237.94H342.75z" /><path style="fill:#FF8900;" d="M281.387,293.63c0-14.021-11.366-25.387-25.387-25.387s-25.387,11.366-25.387,25.387  c0,9.395,5.108,17.592,12.693,21.982v32.6h25.387v-32.6C276.279,311.222,281.387,303.025,281.387,293.63z" /><path style="fill:#C06100;" d="M281.39,293.63c0,9.39-5.11,17.59-12.7,21.98v32.6H256v-79.97  C270.02,268.24,281.39,279.61,281.39,293.63z" /><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+<?xml version="1.0" ?>
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="40px" height="40px" viewBox="0 0 64 64" id="svg5" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+
+<defs id="defs2"/>
+
+<g id="layer1" transform="translate(-96,-288)">
+
+<path d="m 106,297 h 49 v 6 h -49 z" id="path26939" style="fill:#3e4f59;fill-opacity:1;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
+
+<path d="m 106,303 h 49 v 40 h -49 z" id="path26941" style="fill:#acbec2;fill-opacity:1;fill-rule:evenodd;stroke-width:2.00001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
+
+<path d="m 106,303 v 40 h 29.76953 a 28.484051,41.392605 35.599482 0 0 18.625,-40 z" id="path26943" style="fill:#e8edee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.00002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
+
+<path d="m 108,296 c -1.64501,0 -3,1.355 -3,3 v 40 c 0,0.55229 0.44772,1 1,1 0.55229,0 1,-0.44771 1,-1 v -40 c 0,-0.56413 0.43587,-1 1,-1 h 45 c 0.56413,0 1,0.43587 1,1 v 3 h -42 c -0.55228,0 -1,0.44772 -1,1 0,0.55229 0.44772,1 1,1 h 42 v 37 c 0,0.56413 -0.43587,1 -1,1 h -49 c -0.55228,0 -1,0.44772 -1,1 0,0.55229 0.44772,1 1,1 h 49 c 1.64501,0 3,-1.35499 3,-3 0,-14 0,-28 0,-42 0,-1.645 -1.35499,-3 -3,-3 z" id="path26945" style="color:#000000;fill:#000000;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
+
+<path d="m 151,299 c -0.55228,0 -1,0.44772 -1,1 0,0.55229 0.44772,1 1,1 0.55229,0 1,-0.44771 1,-1 0,-0.55228 -0.44771,-1 -1,-1 z" id="path26947" style="color:#000000;fill:#ed7161;fill-opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
+
+<path d="m 147,299 c -0.55228,0 -1,0.44772 -1,1 0,0.55229 0.44772,1 1,1 0.55229,0 1,-0.44771 1,-1 0,-0.55228 -0.44771,-1 -1,-1 z" id="path26949" style="color:#000000;fill:#ecba16;fill-opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
+
+<path d="m 143,299 c -0.55228,0 -1,0.44772 -1,1 0,0.55229 0.44772,1 1,1 0.55229,0 1,-0.44771 1,-1 0,-0.55228 -0.44771,-1 -1,-1 z" id="path26951" style="color:#000000;fill:#42b05c;fill-opacity:1;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
+
+<path d="m 101,342 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z" id="path26953" style="color:#000000;fill:#000000;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
+
+<path d="m 109,302 c -0.55228,0 -1,0.44772 -1,1 0,0.55229 0.44772,1 1,1 0.55229,0 1,-0.44771 1,-1 0,-0.55228 -0.44771,-1 -1,-1 z" id="path26955" style="color:#000000;fill:#000000;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
+
+<path d="m 121.99998,313.00001 c 4.14207,0.0516 6.81286,-1.68094 9,-4.00001 2.38683,2.76379 5.44015,3.97273 8.99999,4.00001 V 320 c 0,4.97056 -4.02944,9 -9,9 -4.97056,0 -8.99999,-4.02944 -8.99999,-9 z" id="rect2124" style="fill:#0075d3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.00001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
+
+<path d="M 126.58984,312.17578 C 125.27763,312.71454 123.77472,313.02211 122,313 v 7 c 0,4.97056 4.02944,9 9,9 2.11021,0 4.04933,-0.72717 5.58398,-1.94336 A 11.924097,11.924097 0 0 0 137,324 11.924097,11.924097 0 0 0 126.58984,312.17578 Z" id="path13285" style="fill:#0588e2;fill-opacity:1;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
+
+<path d="m 135.36523,316.47656 -6.00781,4.93555 -1.45312,-3.08789 a 1,1 0 0 0 -1.33008,-0.47852 1,1 0 0 0 -0.47852,1.33008 l 2,4.25 a 1.0001,1.0001 0 0 0 1.53907,0.34766 l 7,-5.75 a 1,1 0 0 0 0.13867,-1.40821 1,1 0 0 0 -1.40821,-0.13867 z" id="path32473" style="color:#000000;fill:#000000;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
+
+<path d="m 117.99998,333 h 25 c 1.108,0 2,0.892 2,2 0,1.108 -0.892,2 -2,2 h -25 c -1.108,0 -2,-0.892 -2,-2 0,-1.108 0.892,-2 2,-2 z" id="rect2092" style="fill:#ffa221;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
+
+<path d="m 118,333 c -1.108,0 -2,0.892 -2,2 h 23 c 1.108,0 2,-0.892 2,-2 z" id="path13457" style="fill:#ffc343;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1"/>
+
+<path d="m 138.95899,337 h -20.95901 c -1.108,0 -2,-0.892 -2,-2 0,-1.108 0.892,-2 2,-2 M 122,333 h 20.99998 c 1.108,0 2,0.892 2,2 0,1.108 -0.892,2 -2,2" id="path17681" style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;stroke-opacity:1"/>
+
+<path d="m 130.3457,308.24219 a 1.000005,1.000005 0 0 0 -0.10351,1.41211 c 2.33729,2.70643 5.38206,4.00416 8.75781,4.24804 V 320 c 0,1.28933 -0.30296,2.50019 -0.8418,3.57617 a 1.000005,1.000005 0 0 0 0.44532,1.3418 1.000005,1.000005 0 0 0 1.34375,-0.44531 C 140.62139,323.12654 141,321.60391 141,320 v -7 a 1.000105,1.000105 0 0 0 -0.99219,-1 c -3.33783,-0.0256 -6.04658,-1.10062 -8.25195,-3.6543 a 1.000005,1.000005 0 0 0 -1.41016,-0.10351 z m -2.8164,2.34765 c -1.48586,0.89428 -3.21959,1.43875 -5.51758,1.41016 A 1.000105,1.000105 0 0 0 121,313 v 7 c 0,5.511 4.489,10 10,10 2.10223,0 4.06225,-0.65144 5.67383,-1.76367 a 1.000005,1.000005 0 0 0 0.25586,-1.39258 1.000005,1.000005 0 0 0 -1.39258,-0.25391 C 134.24717,327.4801 132.68992,328 131,328 c -4.43011,0 -8,-3.56989 -8,-8 v -6.12305 c 2.15301,-0.13399 4.0319,-0.65419 5.56055,-1.57422 a 1.000005,1.000005 0 0 0 0.33984,-1.37304 1.000005,1.000005 0 0 0 -1.37109,-0.33985 z" id="path18430" style="color:#000000;fill:#000000;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4.1;-inkscape-stroke:none"/>
+
+</g>
+
+</svg>
