@@ -206,10 +206,11 @@ public class InfoDialog extends javax.swing.JDialog {
         lblHoTen2.setPreferredSize(new java.awt.Dimension(150, 40));
         jPanel24.add(lblHoTen2);
 
-        btnChangePassword.setBackground(new java.awt.Color(0, 102, 102));
+        btnChangePassword.setBackground(new java.awt.Color(135, 206, 250));
         btnChangePassword.setFont(new java.awt.Font("Roboto Mono Medium", 0, 16)); // NOI18N
         btnChangePassword.setForeground(new java.awt.Color(255, 255, 255));
         btnChangePassword.setText("Đổi mật khẩu");
+        btnChangePassword.setToolTipText("");
         btnChangePassword.setBorderPainted(false);
         btnChangePassword.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnChangePassword.setFocusPainted(false);
