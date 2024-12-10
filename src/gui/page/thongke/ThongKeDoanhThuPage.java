@@ -23,7 +23,7 @@ public class ThongKeDoanhThuPage extends javax.swing.JPanel {
 
         tabPane = new javax.swing.JTabbedPane();
 
-        setBackground(new java.awt.Color(230, 245, 245));
+        setBackground(new java.awt.Color(135, 206, 250));
         setMinimumSize(new java.awt.Dimension(1130, 800));
         setPreferredSize(new java.awt.Dimension(1130, 800));
         setLayout(new java.awt.BorderLayout(0, 6));
