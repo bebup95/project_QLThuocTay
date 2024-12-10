@@ -111,7 +111,7 @@ public class ThuocTinhXuatXuDialog extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        jPanel15.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel15.setBackground(new java.awt.Color(135, 206, 250));
         jPanel15.setMinimumSize(new java.awt.Dimension(100, 60));
         jPanel15.setPreferredSize(new java.awt.Dimension(500, 50));
         jPanel15.setLayout(new java.awt.BorderLayout());
@@ -238,7 +238,7 @@ public class ThuocTinhXuatXuDialog extends javax.swing.JDialog {
         jPanel8.setBackground(new java.awt.Color(255, 255, 255));
         jPanel8.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 8, 5));
 
-        btnRemove.setBackground(new java.awt.Color(255, 102, 102));
+        btnRemove.setBackground(new java.awt.Color(255, 127, 80));
         btnRemove.setFont(new java.awt.Font("Roboto Mono Medium", 0, 16)); // NOI18N
         btnRemove.setForeground(new java.awt.Color(255, 255, 255));
         btnRemove.setText("XÓA");

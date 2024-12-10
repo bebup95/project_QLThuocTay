@@ -343,7 +343,7 @@ public class CreateHoaDonPage extends javax.swing.JPanel {
         sanPhamPanel.setPreferredSize(new java.awt.Dimension(832, 300));
         sanPhamPanel.setLayout(new java.awt.BorderLayout());
 
-        jPanel15.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel15.setBackground(new java.awt.Color(135, 206, 250));
         jPanel15.setMinimumSize(new java.awt.Dimension(100, 60));
         jPanel15.setPreferredSize(new java.awt.Dimension(500, 30));
         jPanel15.setLayout(new java.awt.BorderLayout());
@@ -448,12 +448,12 @@ public class CreateHoaDonPage extends javax.swing.JPanel {
             .addGroup(jPanel24Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, 263, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(612, Short.MAX_VALUE))
+                .addContainerGap(621, Short.MAX_VALUE))
             .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel24Layout.createSequentialGroup()
                     .addContainerGap()
                     .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jPanel18, javax.swing.GroupLayout.DEFAULT_SIZE, 869, Short.MAX_VALUE)
+                        .addComponent(jPanel18, javax.swing.GroupLayout.DEFAULT_SIZE, 878, Short.MAX_VALUE)
                         .addComponent(jPanel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jPanel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addContainerGap()))
@@ -618,7 +618,7 @@ public class CreateHoaDonPage extends javax.swing.JPanel {
 
         cardPanel.add(jScrollPane2, java.awt.BorderLayout.CENTER);
 
-        jPanel3.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel3.setBackground(new java.awt.Color(135, 206, 250));
         jPanel3.setMinimumSize(new java.awt.Dimension(100, 60));
         jPanel3.setPreferredSize(new java.awt.Dimension(500, 30));
         jPanel3.setLayout(new java.awt.BorderLayout());
@@ -658,7 +658,7 @@ public class CreateHoaDonPage extends javax.swing.JPanel {
         billInfoPanel.setPreferredSize(new java.awt.Dimension(500, 400));
         billInfoPanel.setLayout(new java.awt.BorderLayout());
 
-        jPanel5.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel5.setBackground(new java.awt.Color(135, 206, 250));
         jPanel5.setMinimumSize(new java.awt.Dimension(100, 60));
         jPanel5.setPreferredSize(new java.awt.Dimension(500, 30));
         jPanel5.setLayout(new java.awt.BorderLayout());
@@ -820,7 +820,7 @@ public class CreateHoaDonPage extends javax.swing.JPanel {
 
         jPanel8.setBackground(new java.awt.Color(255, 255, 255));
 
-        btnHuy.setBackground(new java.awt.Color(255, 102, 102));
+        btnHuy.setBackground(new java.awt.Color(255, 127, 80));
         btnHuy.setFont(new java.awt.Font("Roboto Mono Medium", 0, 16)); // NOI18N
         btnHuy.setForeground(new java.awt.Color(255, 255, 255));
         btnHuy.setText("HỦY BỎ");

@@ -89,9 +89,8 @@ public class CreateKhachHangDialog extends javax.swing.JDialog {
         btnAdd = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(600, 600));
 
-        jPanel15.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel15.setBackground(new java.awt.Color(135, 206, 250));
         jPanel15.setMinimumSize(new java.awt.Dimension(100, 60));
         jPanel15.setPreferredSize(new java.awt.Dimension(500, 50));
         jPanel15.setLayout(new java.awt.BorderLayout());
@@ -178,7 +177,7 @@ public class CreateKhachHangDialog extends javax.swing.JDialog {
         jPanel8.setBackground(new java.awt.Color(255, 255, 255));
         jPanel8.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 8, 5));
 
-        btnHuy.setBackground(new java.awt.Color(255, 102, 102));
+        btnHuy.setBackground(new java.awt.Color(255, 127, 80));
         btnHuy.setFont(new java.awt.Font("Roboto Mono Medium", 0, 16)); // NOI18N
         btnHuy.setForeground(new java.awt.Color(255, 255, 255));
         btnHuy.setText("HỦY BỎ");
@@ -194,7 +193,7 @@ public class CreateKhachHangDialog extends javax.swing.JDialog {
         });
         jPanel8.add(btnHuy);
 
-        btnAdd.setBackground(new java.awt.Color(0, 204, 102));
+        btnAdd.setBackground(new java.awt.Color(34, 139, 34));
         btnAdd.setFont(new java.awt.Font("Roboto Mono Medium", 0, 16)); // NOI18N
         btnAdd.setForeground(new java.awt.Color(255, 255, 255));
         btnAdd.setText("THÊM");

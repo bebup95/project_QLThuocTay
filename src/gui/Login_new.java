@@ -141,8 +141,9 @@ public class Login_new extends javax.swing.JFrame {
         jPanel4.setPreferredSize(new java.awt.Dimension(360, 600));
         jPanel4.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 0, 16));
 
+        logo.setBackground(new java.awt.Color(135, 206, 250));
         logo.setFont(new java.awt.Font("Segoe Print", 1, 32)); // NOI18N
-        logo.setForeground(new java.awt.Color(0, 183, 183));
+        logo.setForeground(new java.awt.Color(135, 206, 250));
         logo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         logo.setText("NLPG Pharmacy");
         logo.setPreferredSize(new java.awt.Dimension(360, 120));
@@ -197,7 +198,7 @@ public class Login_new extends javax.swing.JFrame {
 
         jPanel4.add(jPanel3);
 
-        btnLogin.setBackground(new java.awt.Color(0, 204, 204));
+        btnLogin.setBackground(new java.awt.Color(135, 206, 250));
         btnLogin.setFont(new java.awt.Font("Roboto Mono", 1, 18)); // NOI18N
         btnLogin.setForeground(new java.awt.Color(255, 255, 255));
         btnLogin.setText("Đăng nhập");
@@ -215,10 +216,10 @@ public class Login_new extends javax.swing.JFrame {
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel7Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
+                .addContainerGap(14, Short.MAX_VALUE)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(73, Short.MAX_VALUE))
+                .addContainerGap())
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -233,7 +234,7 @@ public class Login_new extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1053, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 980, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

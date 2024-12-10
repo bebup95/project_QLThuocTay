@@ -368,7 +368,7 @@ public class PhieuNhapPage extends javax.swing.JPanel {
 
         tablePanel.add(jScrollPane1, java.awt.BorderLayout.CENTER);
 
-        jPanel5.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel5.setBackground(new java.awt.Color(135, 206, 250));
         jPanel5.setMinimumSize(new java.awt.Dimension(100, 60));
         jPanel5.setPreferredSize(new java.awt.Dimension(500, 40));
         jPanel5.setLayout(new java.awt.BorderLayout());

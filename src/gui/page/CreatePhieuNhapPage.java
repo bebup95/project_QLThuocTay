@@ -319,7 +319,7 @@ public class CreatePhieuNhapPage extends javax.swing.JPanel {
         sanPhamPanel.setPreferredSize(new java.awt.Dimension(832, 300));
         sanPhamPanel.setLayout(new java.awt.BorderLayout());
 
-        jPanel15.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel15.setBackground(new java.awt.Color(135, 206, 250));
         jPanel15.setMinimumSize(new java.awt.Dimension(100, 60));
         jPanel15.setPreferredSize(new java.awt.Dimension(500, 30));
         jPanel15.setLayout(new java.awt.BorderLayout());
@@ -594,7 +594,7 @@ public class CreatePhieuNhapPage extends javax.swing.JPanel {
 
         cardPanel.add(jScrollPane2, java.awt.BorderLayout.CENTER);
 
-        jPanel3.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel3.setBackground(new java.awt.Color(135, 206, 250));
         jPanel3.setMinimumSize(new java.awt.Dimension(100, 60));
         jPanel3.setPreferredSize(new java.awt.Dimension(500, 30));
         jPanel3.setLayout(new java.awt.BorderLayout());
@@ -634,7 +634,7 @@ public class CreatePhieuNhapPage extends javax.swing.JPanel {
         billInfoPanel.setPreferredSize(new java.awt.Dimension(500, 400));
         billInfoPanel.setLayout(new java.awt.BorderLayout());
 
-        jPanel5.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel5.setBackground(new java.awt.Color(135, 206, 250));
         jPanel5.setMinimumSize(new java.awt.Dimension(100, 60));
         jPanel5.setPreferredSize(new java.awt.Dimension(500, 30));
         jPanel5.setLayout(new java.awt.BorderLayout());
@@ -772,7 +772,7 @@ public class CreatePhieuNhapPage extends javax.swing.JPanel {
 
         jPanel8.setBackground(new java.awt.Color(255, 255, 255));
 
-        btnHuy.setBackground(new java.awt.Color(255, 102, 102));
+        btnHuy.setBackground(new java.awt.Color(255, 127, 80));
         btnHuy.setFont(new java.awt.Font("Roboto Mono Medium", 0, 16)); // NOI18N
         btnHuy.setForeground(new java.awt.Color(255, 255, 255));
         btnHuy.setText("HỦY BỎ");

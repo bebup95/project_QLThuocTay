@@ -190,7 +190,7 @@ public class MainLayout extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Hệ thống quản lý hiệu thuốc tây");
 
-        leftContent.setBackground(new java.awt.Color(230, 245, 245));
+        leftContent.setBackground(new java.awt.Color(135, 206, 250));
         leftContent.setPreferredSize(new java.awt.Dimension(250, 800));
 
         sidebarPanel.setBackground(new java.awt.Color(255, 255, 255));

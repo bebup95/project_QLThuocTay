@@ -113,9 +113,8 @@ public class InfoDialog extends javax.swing.JDialog {
         btnUpdate = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(600, 600));
 
-        jPanel15.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel15.setBackground(new java.awt.Color(135, 206, 250));
         jPanel15.setMinimumSize(new java.awt.Dimension(100, 60));
         jPanel15.setPreferredSize(new java.awt.Dimension(500, 50));
         jPanel15.setLayout(new java.awt.BorderLayout());
@@ -125,8 +124,6 @@ public class InfoDialog extends javax.swing.JDialog {
         jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel8.setText("THÔNG TIN CÁ NHÂN");
         jPanel15.add(jLabel8, java.awt.BorderLayout.CENTER);
-
-        getContentPane().add(jPanel15, java.awt.BorderLayout.NORTH);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 5, 16));
@@ -227,12 +224,10 @@ public class InfoDialog extends javax.swing.JDialog {
 
         jPanel1.add(jPanel24);
 
-        getContentPane().add(jPanel1, java.awt.BorderLayout.CENTER);
-
         jPanel8.setBackground(new java.awt.Color(255, 255, 255));
         jPanel8.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 8, 5));
 
-        btnHuy.setBackground(new java.awt.Color(255, 102, 102));
+        btnHuy.setBackground(new java.awt.Color(255, 127, 80));
         btnHuy.setFont(new java.awt.Font("Roboto Mono Medium", 0, 16)); // NOI18N
         btnHuy.setForeground(new java.awt.Color(255, 255, 255));
         btnHuy.setText("HỦY BỎ");
@@ -264,7 +259,23 @@ public class InfoDialog extends javax.swing.JDialog {
         });
         jPanel8.add(btnUpdate);
 
-        getContentPane().add(jPanel8, java.awt.BorderLayout.PAGE_END);
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, 600, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 600, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, 600, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
 
         pack();
         setLocationRelativeTo(null);

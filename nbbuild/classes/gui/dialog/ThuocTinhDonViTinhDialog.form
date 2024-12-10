@@ -26,7 +26,7 @@
     <Container class="javax.swing.JPanel" name="jPanel15">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="99" green="99" red="0" type="rgb"/>
+          <Color blue="fa" green="ce" red="87" type="rgb"/>
         </Property>
         <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
           <Dimension value="[100, 60]"/>
@@ -332,7 +332,7 @@
         <Component class="javax.swing.JButton" name="btnRemove">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="66" green="66" red="ff" type="rgb"/>
+              <Color blue="50" green="7f" red="ff" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Roboto Mono Medium" size="16" style="0"/>
