@@ -309,6 +309,7 @@ public class CreatePhieuNhapPage extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(230, 245, 245));
         setBorder(new javax.swing.border.LineBorder(new java.awt.Color(230, 245, 245), 6, true));
+        setLayout(new java.awt.BorderLayout(5, 0));
 
         mainPanel.setBackground(new java.awt.Color(230, 245, 245));
         mainPanel.setLayout(new java.awt.BorderLayout(5, 5));
@@ -564,6 +565,8 @@ public class CreatePhieuNhapPage extends javax.swing.JPanel {
 
         mainPanel.add(jPanel4, java.awt.BorderLayout.CENTER);
 
+        add(mainPanel, java.awt.BorderLayout.CENTER);
+
         billPanel.setBackground(new java.awt.Color(230, 245, 245));
         billPanel.setPreferredSize(new java.awt.Dimension(460, 800));
         billPanel.setLayout(new java.awt.BorderLayout(0, 5));
@@ -769,7 +772,7 @@ public class CreatePhieuNhapPage extends javax.swing.JPanel {
 
         jPanel8.setBackground(new java.awt.Color(255, 255, 255));
 
-        btnHuy.setBackground(new java.awt.Color(255, 127, 80));
+        btnHuy.setBackground(new java.awt.Color(255, 102, 102));
         btnHuy.setFont(new java.awt.Font("Roboto Mono Medium", 0, 16)); // NOI18N
         btnHuy.setForeground(new java.awt.Color(255, 255, 255));
         btnHuy.setText("HỦY BỎ");
@@ -805,20 +808,7 @@ public class CreatePhieuNhapPage extends javax.swing.JPanel {
 
         billPanel.add(billInfoPanel, java.awt.BorderLayout.SOUTH);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(mainPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 1076, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(5, 5, 5)
-                .addComponent(billPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(mainPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 800, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addComponent(billPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
+        add(billPanel, java.awt.BorderLayout.EAST);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtSearchKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtSearchKeyReleased
